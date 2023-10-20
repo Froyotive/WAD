@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
+
+    <title>Portfolio | Evandani Giantino Rafif</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light" style="background-color: #e3f2fd">
+      <div class="container">
+        <a class="navbar-brand" href="">Navbar</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Project</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Contact Me</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- End Navbar -->
+    
+    <!-- Jumbotron -->
+    <div class="jumbotron text-center">
+      <img src="img/foto.png" class="rounded-circle img-thumbnail" alt="Foto Profil" width="200px" />
+      <h1 class="display-4">Evandani Giantino Rafif | Network Engineer</h1>
+      <div id="about">
+        <div class="container">
+          <div class="row text-center">
+            <div class="col">
+              <h2>About Me</h2>
+            </div>
+            <div class="row justify-content-center text-center">
+              <div class="col-4">
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nam eos eius, suscipit assumenda ad impedit aliquam porro aut dicta facere!</p>
+              </div>
+              <div class="col-4">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam, atque veritatis aliquid quibusdam, libero quia soluta porro repellat distinctio sequi sint qui quasi placeat nemo!</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Button trigger modal -->
+        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+            My Social Media
+        </button>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#ffffff" fill-opacity="1" d="M0,224L30,208C60,192,120,160,180,128C240,96,300,64,360,58.7C420,53,480,75,540,101.3C600,128,660,160,720,197.3C780,235,840,277,900,256C960,235,1020,149,1080,128C1140,107,1200,149,1260,176C1320,203,1380,213,1410,218.7L1440,224L1440,320L1410,320C1380,320,1320,320,1260,320C1200,320,1140,320,1080,320C1020,320,960,320,900,320C840,320,780,320,720,320C660,320,600,320,540,320C480,320,420,320,360,320C300,320,240,320,180,320C120,320,60,320,30,320L0,320Z"></path></svg>
+    </div>
+  <!-- Modal -->
+        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                Github : https://github.com/Froyotive
+                </div>
+                <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                </div>
+            </div>
+            </div>
+        </div>
+
+    <!-- End Jumbotron -->
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <!-- Card -->
+    
+    <h1 class="display-6 text-center">My Portfolio</h1>
+    <div class="card-group">
+      <div class="card">
+        <img src="/img/work-1.jpg" class="card-img-top" alt="Foto Project" />
+        <div class="card-body">
+          <h5 class="card-title">Tumbas.in</h5>
+          <p class="card-text">Aplikasi jual beli sembako</p>
+        </div>
+      </div>
+      <div class="card">
+        <img src="/img/work-2.jpg" class="card-img-top" alt="Foto Project" />
+        <div class="card-body">
+          <h5 class="card-title">Transfer.o</h5>
+          <p class="card-text">FTP Server Internal untuk Kantor</p>
+        </div>
+      </div>
+      </div>
+    </div>
+    <!-- End Card -->
+
+    <!-- Carousel -->
+    <h1 class="display-6 text-center">My Design & Motion Graphic</h1>
+    <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active" data-bs-interval="10000">
+            <img src="/img/work-4.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>First slide label</h5>
+              <p>Some representative placeholder content for the first slide.</p>
+            </div>
+          </div>
+          <div class="carousel-item" data-bs-interval="2000">
+            <img src="/img/work-6.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Second slide label</h5>
+              <p>Some representative placeholder content for the second slide.</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="/img/work-8.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Third slide label</h5>
+              <p>Some representative placeholder content for the third slide.</p>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    <!-- End Carousel -->
+    <!-- Form -->
+    <form class="row g-3">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#ffffff" fill-opacity="1" d="M0,256L48,218.7C96,181,192,107,288,90.7C384,75,480,117,576,144C672,171,768,181,864,192C960,203,1056,213,1152,224C1248,235,1344,245,1392,250.7L1440,256L1440,0L1392,0C1344,0,1248,0,1152,0C1056,0,960,0,864,0C768,0,672,0,576,0C480,0,384,0,288,0C192,0,96,0,48,0L0,0Z"></path></svg>
+        <h1 class="display-6 ">Contact Me</h1>
+        <div class="col-12">
+            <label for="inputAddress" class="form-label">Name</label>
+            <input type="text" class="form-control" id="inputAddress" placeholder="Bang Dodo Si Paling Kambing">
+            </div>
+        <div class="col-12">
+        <label for="inputEmail4" class="form-label">Email</label>
+        <input type="email" class="form-control" id="inputEmail4" placeholder="email@mail.com">
+        </div>
+        <div class="col-12">
+        <label for="inputCity" class="form-label">City</label>
+        <input type="text" class="form-control" id="inputCity" placeholder="Bandung">
+        </div>
+        <div class="col-12">
+        <label for="inputState" class="form-label">State</label>
+        <select id="inputState" class="form-select">
+            <option selected>Choose...</option>
+            <option>Indonesia</option>
+            <option>Jepang</option>
+            <option>China</option>
+            <option>Korea Selatan</option>
+            <option>Korea Utara</option>
+            <option>Taiwan</option>
+            <option>Inggris</option>
+            <option>Amerika Serika</option>
+        </select>
+        </div>
+        <div class="input-group mb-3">
+            <label class="input-group-text" for="inputGroupFile01">Upload</label>
+            <input type="file" class="form-control" id="inputGroupFile01">
+          </div>
+        <div class="col-12">
+        </div>
+        <div class="col-12">
+        <button type="submit" class="btn btn-primary">Send</button>
+        </div>
+    </form>
+    <!-- End Form -->
+    <!-- Footer -->
+    <footer id="sticky-footer" class="flex-shrink-0 py-4 bg-dark text-white-50">
+        <div class="container text-center">
+          <small>Copyright &copy; Evandani Giantino Rafif</small>
+        </div>
+      </footer>
+    <!-- End Footer -->
+  </body>
+</html>
